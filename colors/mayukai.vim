@@ -151,11 +151,12 @@ hi! link String      MayukaiMindaro
 hi! link Type        MayukaiCoral
 
 " Per-language specifics
-hi! link cppSTLnamespace MayukaiCoral
-hi! link diffAdded       MayukaiMindaro
-hi! link diffBDiffer     MayukaiSunglow
-hi! link diffLine        MayukaiSky
-hi! link diffRemoved     MayukaiRed
-hi! link diffSubname     MayukaiPerlwinkle
+hi! link cppSTLnamespace  MayukaiCoral
+hi! link diffAdded        MayukaiMindaro
+hi! link diffBDiffer      MayukaiSunglow
+hi! link diffLine         MayukaiSky
+hi! link diffRemoved      MayukaiRed
+hi! link diffSubname      MayukaiPerlwinkle
+hi! link gitcommitSummary MayukaiPerlwinkle
 
 set background=dark
