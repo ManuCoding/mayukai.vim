@@ -1,0 +1,17 @@
+# Color names taken from coolors.co
+#141925 - Rich black
+#519aba - Blue Green
+#5c6773 - Payne's gray
+#5ccfe6 - Sky blue
+#8d7faa - African Violet
+#8dc149 - Yellow Green
+#95e6cb - Aquamarine
+#9dd2bb - Tiffany Blue
+#bae67e - Mindaro
+#cbcebc - Ash gray
+#cc3e44 - Rusty red
+#d4bfff - Perlwinkle
+#eeeeee - Anti-flash white
+#f28779 - Coral pink
+#ffcc66 - Sunglow
+#ffa759 - Sandy Brown
