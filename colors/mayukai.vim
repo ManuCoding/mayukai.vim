@@ -128,7 +128,7 @@ hi! link NonText     MayukaiBlue
 hi! link Pmenu       CursorLine
 hi! link PmenuSel    MayukaiSunglow
 hi! link Question    MayukaiGreen
-hi! link SpecialKey  MayukaiSky
+hi! link SpecialKey  MayukaiAsh
 hi! link Title       MayukaiSunglow
 hi! link WarningMsg  MayukaiRed
 hi! link WildMenu    MayukaiSunglow
