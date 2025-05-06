@@ -88,10 +88,10 @@ exec 'hi Conceal cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.
 exec 'hi CursorColumn cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.s:t_gray.' guibg='.s:g_gray
 exec 'hi CursorLine cterm=NONE ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi CursorLineNr cterm=NONE ctermfg='.s:t_ash.' guifg='.s:g_ash.' ctermbg='.s:t_black.' guibg='.s:g_black
-exec 'hi DiffAdd cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.s:t_black.' guibg='.s:g_black
-exec 'hi DiffChange cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.s:t_black.' guibg='.s:g_black
-exec 'hi DiffDelete cterm=NONE ctermfg='.s:t_ash.' guifg='.s:g_ash.' ctermbg='.s:t_black.' guibg='.s:g_black
-exec 'hi DiffText cterm=bold ctermfg='.s:t_ash.' guifg='.s:g_white.' ctermbg='.s:t_white.' guibg='.s:g_blue
+exec 'hi DiffAdd ctermbg='.s:t_black.' guibg='.s:g_black
+exec 'hi DiffChange ctermbg='.s:t_black.' guibg='.s:g_black
+exec 'hi DiffDelete ctermfg='.s:t_red.' guifg='.s:g_red.' ctermbg='.s:t_black.' guibg='.s:g_black
+exec 'hi DiffText cterm=bold ctermbg='.s:t_blue.' guibg='.s:g_blue
 exec 'hi ErrorMsg cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.s:t_red.' guibg='.s:g_red
 exec 'hi FoldColumn cterm=NONE ctermfg='.s:t_green.' guifg='.s:g_green.' ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi Folded cterm=NONE ctermfg='.s:t_mindaro.' guifg='.s:g_mindaro.' ctermbg='.s:t_black.' guibg='.s:g_black
