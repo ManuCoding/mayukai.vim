@@ -138,7 +138,7 @@ hi! link Added       MayukaiGreen
 hi! link Boolean     MayukaiSandy
 hi! link Changed     MayukaiAquamarine
 hi! link Comment     MayukaiGray
-hi! link Character   MayukaiGray
+hi! link Character   MayukaiMindaro
 hi! link Conditional MayukaiSandy
 hi! link Constant    MayukaiSandy
 hi! link Error       MayukaiRed
