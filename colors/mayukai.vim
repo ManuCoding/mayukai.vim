@@ -151,6 +151,7 @@ hi! link PreProc     MayukaiSandy
 hi! link Statement   MayukaiSandy
 hi! link Special     MayukaiAquamarine
 hi! link String      MayukaiMindaro
+hi! link Todo        MayukaiSunglow
 hi! link Type        MayukaiCoral
 
 " Per-language specifics
