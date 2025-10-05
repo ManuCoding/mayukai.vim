@@ -95,7 +95,7 @@ exec 'hi DiffText cterm=bold ctermbg='.s:t_blue.' guibg='.s:g_blue
 exec 'hi ErrorMsg cterm=NONE ctermfg='.s:t_white.' guifg='.s:g_white.' ctermbg='.s:t_red.' guibg='.s:g_red
 exec 'hi FoldColumn cterm=NONE ctermfg='.s:t_green.' guifg='.s:g_green.' ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi Folded cterm=NONE ctermfg='.s:t_mindaro.' guifg='.s:g_mindaro.' ctermbg='.s:t_black.' guibg='.s:g_black
-exec 'hi MatchParen cterm=bold ctermfg='.s:t_ash.' guifg='.s:g_ash.' ctermbg='.s:t_black.' guibg='.s:g_black
+exec 'hi MatchParen cterm=underline,bold ctermfg='.s:t_ash.' guifg='.s:g_ash.' ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi PmenuSbar cterm=NONE ctermfg='.s:t_black.' ctermbg='.s:t_gray.' guifg='.s:g_black.' guibg='.s:g_gray
 exec 'hi PmenuThumb cterm=NONE ctermfg='.s:t_black.' ctermbg='.s:t_sunglow.' guifg='.s:g_black.' guibg='.s:g_sunglow
 exec 'hi Search cterm=bold ctermfg='.s:t_white.' ctermbg='.s:t_gray.' guifg='.s:g_white.' guibg='.s:g_gray
