@@ -117,7 +117,12 @@ exec 'hi VertSplit cterm=NONE ctermfg='.s:t_blue.' guifg='.s:g_blue.' ctermbg='.
 exec 'hi Visual cterm=NONE ctermfg=NONE guifg=NONE ctermbg='.s:t_visual.' guibg='.s:g_visual
 
 " Putting Normal here
-exec 'hi Normal cterm=NONE ctermfg='.s:t_normal.' ctermbg=0 guifg='.s:g_normal.' guibg=#141925'
+if exists("mayukai_transparent") && g:mayukai_transparent
+	exec 'hi Normal cterm=NONE ctermfg='.s:t_normal.' ctermbg=NONE guifg='.s:g_normal.' guibg=NONE'
+else
+	set background=dark
+	exec 'hi Normal cterm=NONE ctermfg='.s:t_normal.' ctermbg=0 guifg='.s:g_normal.' guibg=#141925'
+endif
 
 hi! link Directory   MayukaiSky
 hi! link Ignore      MayukaiBlack
@@ -162,5 +167,3 @@ hi! link diffLine         MayukaiSky
 hi! link diffRemoved      MayukaiRed
 hi! link diffSubname      MayukaiPerlwinkle
 hi! link gitcommitSummary MayukaiPerlwinkle
-
-set background=dark
