@@ -2,6 +2,7 @@
 if exists('syntax_on')
 	syntax reset
 endif
+let g:colors_name="mayukai"
 
 " GUI colors
 let s:g_aquamarine="#95e6cb"
