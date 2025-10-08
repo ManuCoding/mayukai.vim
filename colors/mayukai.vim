@@ -167,3 +167,12 @@ hi! link diffLine         MayukaiSky
 hi! link diffRemoved      MayukaiRed
 hi! link diffSubname      MayukaiPerlwinkle
 hi! link gitcommitSummary MayukaiPerlwinkle
+
+" Automatic reloading
+if exists("g:colors_name") && g:colors_name=="mayukai"
+	augroup MayukaiReload
+		autocmd!
+		autocmd OptionSet t_Co if g:colors_name=="mayukai" | source <sfile> | endif
+		autocmd ColorScheme * if g:colors_name!="mayukai" | augroup! MayukaiReload | endif
+	augroup END
+endif
