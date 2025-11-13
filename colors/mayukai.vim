@@ -100,7 +100,6 @@ exec 'hi MatchParen cterm=underline,bold ctermfg='.s:t_ash.' guifg='.s:g_ash.' c
 exec 'hi PmenuSbar cterm=NONE ctermfg='.s:t_black.' ctermbg='.s:t_gray.' guifg='.s:g_black.' guibg='.s:g_gray
 exec 'hi PmenuThumb cterm=NONE ctermfg='.s:t_black.' ctermbg='.s:t_sunglow.' guifg='.s:g_black.' guibg='.s:g_sunglow
 exec 'hi Search cterm=bold ctermfg='.s:t_white.' ctermbg='.s:t_gray.' guifg='.s:g_white.' guibg='.s:g_gray
-exec 'hi SignColumn cterm=NONE ctermfg='.s:t_mindaro.' guifg='.s:g_mindaro.' ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi SpellBad cterm=underline ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi SpellCap cterm=underline ctermbg='.s:t_black.' guibg='.s:g_black
 exec 'hi SpellLocal cterm=underline ctermbg='.s:t_black.' guibg='.s:g_black
@@ -134,6 +133,7 @@ hi! link NonText     MayukaiBlue
 hi! link Pmenu       CursorLine
 hi! link PmenuSel    MayukaiSunglow
 hi! link Question    MayukaiGreen
+hi! link SignColumn  Normal
 hi! link SpecialKey  MayukaiAsh
 hi! link Title       MayukaiSunglow
 hi! link WarningMsg  MayukaiRed
@@ -168,6 +168,11 @@ hi! link diffLine         MayukaiSky
 hi! link diffRemoved      MayukaiRed
 hi! link diffSubname      MayukaiPerlwinkle
 hi! link gitcommitSummary MayukaiPerlwinkle
+
+" Plugin highlights
+hi! link GitGutterAdd    MayukaiMindaro
+hi! link GitGutterChange MayukaiSunglow
+hi! link GitGutterDelete MayukaiRed
 
 " Automatic reloading
 augroup MayukaiReload
