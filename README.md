@@ -5,3 +5,4 @@ It also supports 16-color environments.
 
 # Usage
 Either install this repo using your favorite Vim plugin manager or copy the file `colors/mayukai.vim` inside your `.vim/colors` directory.
+You can also copy the corresponding airline/lightline file to make it work with your status line plugin.
