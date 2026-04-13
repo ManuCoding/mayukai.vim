@@ -10,7 +10,7 @@
 #bae67e - Mindaro
 #cbcebc - Ash gray
 #cc3e44 - Rusty red
-#d4bfff - Perlwinkle
+#d4bfff - Periwinkle
 #eeeeee - Anti-flash white
 #f28779 - Coral pink
 #ffcc66 - Sunglow

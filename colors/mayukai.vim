@@ -14,7 +14,7 @@ let s:g_gray="#5c6773"
 let s:g_green="#8dc149"
 let s:g_mindaro="#bae67e"
 let s:g_normal="#cbcebc"
-let s:g_perlwinkle="#d4bfff"
+let s:g_periwinkle="#d4bfff"
 let s:g_sandy="#ffa759"
 let s:g_red="#cc3e44"
 let s:g_sky="#5ccfe6"
@@ -34,7 +34,7 @@ let s:t_gray=241
 let s:t_green=107
 let s:t_mindaro=150
 let s:t_normal=251
-let s:t_perlwinkle=183
+let s:t_periwinkle=183
 let s:t_sandy=215
 let s:t_red=167
 let s:t_sky=80
@@ -54,7 +54,7 @@ if &t_Co<256
 	let s:t_gray=8
 	let s:t_green=2
 	let s:t_mindaro=10
-	let s:t_perlwinkle=13
+	let s:t_periwinkle=13
 	let s:t_sandy=3
 	let s:t_red=1
 	let s:t_sky=12
@@ -74,7 +74,7 @@ exec 'hi MayukaiCoral ctermfg='.s:t_coral.' guifg='.s:g_coral
 exec 'hi MayukaiGray ctermfg='.s:t_gray.' guifg='.s:g_gray
 exec 'hi MayukaiGreen ctermfg='.s:t_green.' guifg='.s:g_green
 exec 'hi MayukaiMindaro ctermfg='.s:t_mindaro.' guifg='.s:g_mindaro
-exec 'hi MayukaiPerlwinkle ctermfg='.s:t_perlwinkle.' guifg='.s:g_perlwinkle
+exec 'hi MayukaiPeriwinkle ctermfg='.s:t_periwinkle.' guifg='.s:g_periwinkle
 exec 'hi MayukaiSandy ctermfg='.s:t_sandy.' guifg='.s:g_sandy
 exec 'hi MayukaiRed ctermfg='.s:t_red.' guifg='.s:g_red
 exec 'hi MayukaiSky ctermfg='.s:t_sky.' guifg='.s:g_sky
@@ -128,7 +128,7 @@ hi! link Directory   MayukaiSky
 hi! link Ignore      MayukaiBlack
 hi! link LineNr      MayukaiGray
 hi! link ModeMsg     MayukaiSunglow
-hi! link MoreMsg     MayukaiPerlwinkle
+hi! link MoreMsg     MayukaiPeriwinkle
 hi! link NonText     MayukaiBlue
 hi! link Pmenu       CursorLine
 hi! link PmenuSel    MayukaiSunglow
@@ -166,8 +166,8 @@ hi! link diffAdded        MayukaiMindaro
 hi! link diffBDiffer      MayukaiSunglow
 hi! link diffLine         MayukaiSky
 hi! link diffRemoved      MayukaiRed
-hi! link diffSubname      MayukaiPerlwinkle
-hi! link gitcommitSummary MayukaiPerlwinkle
+hi! link diffSubname      MayukaiPeriwinkle
+hi! link gitcommitSummary MayukaiPeriwinkle
 
 " Plugin highlights
 hi! link GitGutterAdd    MayukaiMindaro
